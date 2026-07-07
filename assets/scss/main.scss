@@ -1,0 +1,62 @@
+// Import Google Fonts (Plus Jakarta Sans)
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+// --- Variabel Warna Susi Air ---
+$color-primary: #0E2138;
+$color-brand: #E63757;
+$color-bg: #F5F6F8;
+$color-surface: #FFFFFF;
+$color-text-primary: #0E2138;
+$color-text-secondary: #6B7280;
+
+// --- Warna Status ---
+$color-success: #1FBF8F;
+$color-warning: #F59E0B;
+$color-danger: #E63757;
+$color-chart-accent: #22C5E8;
+
+// --- Komponen Dasar ---
+$font-family: 'Plus Jakarta Sans', sans-serif;
+$border-radius-card: 16px; 
+$border-radius-button: 24px; 
+
+// --- Reset & Base Styles ---
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $color-bg;
+  color: $color-text-primary;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.home-container, 
+.schedule-container,
+.login-container {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+button:active, 
+a:active, 
+.nav-item:active, 
+.day-cell:active {
+  transform: scale(0.96);
+  transition: transform 0.1s ease;
+}
