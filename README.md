@@ -7,8 +7,8 @@ Built as a submission for the **Front-End Developer Technical Test** at PT ASI P
 ---
 
 ## 🔗 Live Preview & Repository
-- **Live Deployment:** [Insert your Vercel URL here, e.g., https://test-susi-air.vercel.app]
-- **GitHub Repository:** [Insert your GitHub URL here]
+- **Live Deployment:** https://vercel.com/arka6/susi-air-frontend-test
+- **GitHub Repository:** https://github.com/marioarka-dev/susi-air-frontend-test/
 
 ---
 
